@@ -1,0 +1,406 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.logo {
+  /* float: left; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.userBar {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.userBar p.name {
+  font-size: 13px;
+}
+
+.userBar ul.nav li {
+  display: inline;
+  font-size: 10px;
+  font-weight: 600;
+  
+}
+.userBar ul.nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.userBar ul.nav li:before {
+  content: "|";
+  padding: 5px;
+}
+
+.userBar .nav span {
+  margin: 2px;
+}
+
+.search {
+  float: right;
+  margin-top: 24px;
+  display:none;
+}
+
+.searchBar {
+  float: left;
+  background: url("../img/search-bar.png") no-repeat ;
+  width: 276px;
+  margin-right: 7px;
+}
+
+.searchBar input {
+  width: 80%;
+  font-size: 11px;
+  padding: 4px 8px 4px 8px;
+  border: 0;
+  color: #727272;
+  background-color: transparent;
+}
+
+.searchBar .searchIcon {
+    border:0;
+    background: url("../img/search-icon.png") no-repeat ;
+  height: 9px;
+    width: 13px;
+    margin-left:7px;
+}
+.searchBar .closeIcon {
+    border:0;
+    background: url("../img/close.png") no-repeat ;
+    height: 9px;
+    width: 8px;
+    margin-left: 15px;
+  }
+
+.search button.searchButton {
+    border:0;
+  font-size: 9px;
+  color: #ffffff;
+  padding: 6px 8px 6px 8px;
+  background: url("../img/search-button.png") no-repeat;
+  width: 53px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .hamburger {
+    background:url('../img/ham.png') no-repeat;
+    background-size: 80%;
+    width:25px; 
+    height:25px;
+    display: block;
+    float:left;
+  }
+
+.navBar a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navBar  ul li {
+  display: inline;
+  margin: 15px;
+}
+
+.leftNav {
+  display:none;
+  float: left;
+  font-size: 14px;
+  padding: 12px 0 12px 8px;
+}
+
+.rightNav {
+  float: right;
+  font-size: 11px;
+  padding: 12px 0 12px 0;
+}
+
+.rightNav button.friendIcon {
+  background: url("../img/friend.png") no-repeat;
+  border:0;
+  height: 13px;
+  width: 17px;
+}
+.rightNav button.topicIcon {
+    background: url("../img/topic.png") no-repeat;
+    border:0;
+    height: 13px;
+    width: 17px;
+  }
+.rightNav ul li.friendTag a {
+    color: gray;
+}
+
+/**Sidebar**/
+
+.sidebarHeader {
+  color: #ffffff;
+  background-color: #2fc1da;
+  padding: 13px 12px 13px 12px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.sidebar ul li {
+  display: block;
+  list-style-type: none;
+  
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 11px;
+  text-decoration: none;
+  font-size: 11px;
+  color: #000;
+  text-align: center;
+}
+
+.sidebar ul li a > span {
+  display: block;
+}
+
+
+.sidebar ul li a span.text {
+  width: 152px;
+  display: inline-block;
+  line-height: 1.4;
+  vertical-align: middle;
+  
+}
+
+.sidebar ul li:hover {
+  background-color: #ffffff;
+}
+
+.downIcon {
+  background:url('../img/down.png') no-repeat;
+  width:16px; 
+  height:16px;
+  display: block;
+  float: right;
+}
+.barIcon {
+  background:url('../img/bar.png') no-repeat;
+  width:16px; 
+  height:16px;
+  display: block;
+  float: right;
+}
+/**sidebar over**/
+.tabBar {
+  border-bottom: 3px solid #2fc1da;
+}
+
+.tabBar ul li {
+  height:25px;
+  list-style-type: none;
+  float: left;
+  width:50%;
+}
+
+.tabBar ul li a{
+  font-size: 13px;
+  font-weight:500;
+  text-decoration: none;
+  text-align: center;
+  color:#000;
+}
+
+.tabBar .blueBg {
+  text-align: center;
+  background: url(../img/blueBg.png) no-repeat;
+}
+.tabBar .blueBg a{
+  color:fff;
+}
+.tabBar .grayBg {
+  text-align: center;
+  background: url(../img/faded.png) no-repeat;
+}
+.tabBar .grayBg:hover {
+  text-align: center;
+  background: url(../img/blueBg.png) no-repeat;
+}
+
+.tab1 {
+  float: left;
+  width: 49.8%;
+  background: url(../img/tabl.png) no-repeat;
+  background-size:cover;
+}
+
+.tabBar ul {
+  padding:5px;
+}
+
+.tabBar .tabTitle {
+  margin:11px;
+  text-align: center;
+}
+
+.tab2 {
+  margin-left:.4%;
+  float:right;
+  width: 49.8%;
+  background: url(../img/tabr.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.postSection h2 {
+  text-align: center;
+}
+.posts {
+  width: 100%;
+  padding: 15px 0 15px 0;
+  border-bottom: 1px solid #D8D8D8;
+}
+.posts h2.title {
+    font-size: 14px;
+    padding-bottom: 6px;
+  }
+  
+  .posts h2.title a {
+  text-decoration: none;
+    color: #000000;
+  }
+
+.posts .userImage {
+  float: left;
+}
+.posts .userImage img {
+  height: 70px;
+  width: 70px;
+}
+
+.posts .description {
+  float: left;
+  font-size: 11px;
+  padding: 0 5px;
+}
+.posts .description span.blue {
+  color:#2fc1da;
+}
+
+.upperTitle {
+  font-size: 11px;
+}
+.blueText {
+  color:#2fc1da;
+  font-weight: bold;
+}
+.redText {
+  color:red;
+  font-weight: bold;
+}
+
+.greenText {
+  color:green;
+  font-weight: bold;
+}
+/** FOO TER **/
+
+.footer {
+  padding: 1.5em;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: gray;
+}
+
+
+
+.footer ul.lists a {
+  color: #fff;
+}
+
+.footer ul.lists li {
+  display: inline;
+}
+
+.footer ul.lists li:before {
+  content: ".";
+  padding: .5em;
+  color: #fff;
+}
+
+
+.footer .cp-text {
+  float: right;
+  color: #d5d5d5;
+}
+
+@media only screen and (min-width:760px) {
+  .logo {
+    float: left;
+    width: auto;
+  }
+  .hdLeft {
+    float: left;
+}
+.search{
+  display: block;
+  margin-left:1em;
+  width:auto;
+}
+  .userBar {
+    margin-top: 10px;
+    text-align: right;
+  }
+  .hamburger {
+    display: none;
+  }
+  .leftNav{
+    display: block;
+  }
+  .postSection {
+    float:left;
+  }
+  .rightSidebar {
+    float:right;
+  }
+  .sidebar{
+    margin:50px;
+  }
+}
+
+@media only screen and (min-width:992px){
+  
+  .leftSidebar {
+    float: left;
+  }
+  .hdLeft {
+    float: left;
+}
+.logo {
+  float: left;
+  margin-right: 21px;
+}
+  .userBar {
+  text-align: right;
+  margin-top: 10px;
+  }
+  .postSection h2 {
+    text-align:left;
+  }
+  .etaSide {
+    float: left;
+  }
+  .postSection {
+    float: right;
+  }
+  .sidebar {
+    margin:0 auto;
+  }
+}
